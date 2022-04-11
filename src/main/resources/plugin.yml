@@ -1,0 +1,23 @@
+name: AnarchyCoreV4
+version: '${version}'
+main: wolfdev1.com.github.anarchycorev4.AnarchyCoreV4
+authors: [ wolfdev1 ]
+description:
+  NullPointerException plugin may not be null
+website: github.com/wolfdev1
+
+permissions:
+  inv:
+    default: op
+
+
+commands:
+  seeinventory:
+    aliases: [seeinv, si, seeplayerinventory]
+    description: Get player inventory as chest
+    permission-message: 'Try what you want, but you wont get anything'
+    permission: inv
+
+  help:
+    aliases: [ helpcommand, serverhelp, gethelp ]
+    description: Help... yeah, help

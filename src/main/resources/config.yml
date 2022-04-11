@@ -1,0 +1,151 @@
+#AnarchyCoreV4 Open Source in Github
+
+
+Dimensions:
+  Nether:
+# This indicates whether the dimension will prohibit blocks
+    IllegalBlocks:
+      Status: true
+      Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+    NetherTop:
+      Enabled: false
+      Top: 127
+      Message: '&l&9[AnarchyCore] &r&7Top is currently disabled'
+  End:
+    Gateway:
+      Enabled: false
+      Message: '&l&9[AnarchyCore] &r&7Travel with Gateway is disabled'
+    IllegalBlocks:
+      Status: true
+      Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+  Overworld:
+    IllegalBlocks:
+      Status: true
+      Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+
+CommandsMessages:
+  General:
+    NoPlayerSelected: '&l&9[AnarchyCore] &r&7No player selected'
+    SelectedIsSender: '&l&9[AnarchyCore] &r&7Why do you select yourself?'
+    OnlyPlayerCanExecute: '&l&9[AnarchyCore] &r&7Only players can execute this command'
+    SoMuchArgs: '&l&9[AnarchyCore] &r&7Too many arguments provided'
+    PlayerNotFound: '&l&9[AnarchyCore] &r&7This is not an a valid player'
+    NoPerm: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+
+IllegalBlocks:
+# If the value is true, the block will be set to illegal and cannot be used.
+  Bedrock:
+    Status: true
+    Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+  Barrier:
+    Status: true
+    Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+  EndPortal:
+    Status: true
+    Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+  MobSpawner:
+    Status: true
+    Message: '&l&9[AnarchyCore] &r&7Try what you want, but you wont get anything'
+
+Chat:
+  Enabled: true
+  CustomChat: true
+  ChatFormat: '<{player}> {message}'
+  Word-Blacklist:
+    - "discord"
+    - "discord.gg/"
+    - "discord dot gg"
+    - "anus"
+    - "arse"
+    - "ass"
+    - "ballsack"
+    - "balls"
+    - "bastard"
+    - "bitch"
+    - "biatch"
+    - "bloody"
+    - "blowjob"
+    - "blowjob"
+    - "bollock"
+    - "bollok"
+    - "boner"
+    - "boob"
+    - "bugger"
+    - "bum"
+    - "butt"
+    - "buttplug"
+    - "clitoris"
+    - "cock"
+    - "coon"
+    - "crap"
+    - "cunt"
+    - "dick"
+    - "dildo"
+    - "dyke"
+    - "fag"
+    - "feck"
+    - "fellate"
+    - "fellatio"
+    - "felching"
+    - "fuck"
+    - "fudgepacker"
+    - "flange"
+    - "Goddamn"
+    - "homo"
+    - "jerk"
+    - "jizz"
+    - "knobend"
+    - "labia"
+    - "lmfao"
+    - "muff"
+    - "nigger"
+    - "nigga"
+    - "prick"
+    - "pube"
+    - "pussy"
+    - "queer"
+    - "scrotum"
+    - "sex"
+    - "shit"
+    - "slut"
+    - "smegma"
+    - "spunk"
+    - "tit"
+    - "tosser"
+    - "turd"
+    - "twat"
+    - "vagina"
+    - "wank"
+    - "whore"
+
+Players:
+  DisableElytraOnLowTps:
+    Status: true
+    Tps: 15
+    Message:
+  Blacklist:
+    Enabled: true
+# Separate with " "
+    Players: 'ElRichMC Bobicraft Cumandiu'
+  DeathMessage:
+    Enabled: true
+    Message: '&l&9[AnarchyCore] &r&7{player} {reason}'
+  FirstJoin:
+    Enabled: true
+    Message: '&l&9[AnarchyCore] &r&7It is {player} first time on the server'
+
+Staff:
+  DeopOnLeave: trie
+# Separate with "-"
+  Names: PremiereSoGod-Tester
+
+ # This boolean allows to enable a discord integration for the discord server, if the integration is deactivated the rest of the related configuration will be ignored
+Discord:
+  Enabled: false
+  Alerts:
+    IllegalBlocks: true
+    FirstPlayerJoin: true
+  DiscordBotToken: 'a'
+  DiscordBotActivity: 'Minecraft'
+  DiscordChannelId: 'e'
+  KickPermissionNeededToUse: true
